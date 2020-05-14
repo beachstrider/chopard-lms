@@ -1,4 +1,4 @@
-# chopard-lms
+# Chopard LMS
 
 A Chopard LMS in Laravel 5.5
 
