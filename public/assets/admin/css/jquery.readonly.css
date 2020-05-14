@@ -1,0 +1,20 @@
+.readonly_overlay{
+	background-color: #fff;
+	padding: 0pt !IMPORTANT;
+	margin: 0pt !IMPORTANT;
+	
+	/*
+	 * Some IE fixes.  These are for IE8, IE7, and IE8-in-7-mode.
+	 * Please note, if you change the order of these filter definitions, IE8-in-7-mode
+	 * will break, (or so I've read).
+	 * 
+	 * Also, should you happen to be using this snippet in a LESS style,
+	 * you may have to escape the filter lines out to prevent LESS from evaluating them.
+	 * 
+	 * -ms-filter: ~"progid:DXImageTransform.Microsoft.Alpha(Opacity=30)";
+	 * filter: ~"alpha(opacity=30)";
+	 */
+	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=30)";
+	filter: alpha(opacity=30);
+	opacity: 0.3;
+}
