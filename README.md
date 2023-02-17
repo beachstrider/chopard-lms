@@ -1,6 +1,6 @@
 # Chopard LMS
 
-[![N|Solid](https://peopleaps.com/wp-content/uploads/2020/11/p2-01-01.png)](https://www.peopleaps.com)
+![screenshot_06](https://user-images.githubusercontent.com/48445639/219708910-52ee8234-bd4d-45bd-87e6-4e992dc36a0c.png)
 
 Laravel Scorm Handler is a laravel package that simplify scorm package contents (zip file) into laravel storage.
 
